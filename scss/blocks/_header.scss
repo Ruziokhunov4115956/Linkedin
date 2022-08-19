@@ -1,0 +1,164 @@
+
+.site-header {
+  background-color: #fff;
+  margin-bottom:35px;
+  // position: fixed;
+  // top:0 ;
+  // right: 0;
+  // left: 0;
+}
+
+.container-fluid {
+  width: 100%;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.site-header__navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-header__logo {
+  width: 45px;
+  height: 40px;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
+}
+
+.site-header__span-height {
+  display: inline-block;
+  background-color: $border-color;
+  width: 0.5px;
+  height: 90px;
+}
+
+.site-header__input-box {
+  position: relative;
+}
+
+.site-header__input {
+  border-radius: 15px;
+  padding: 7px;
+  outline: none;
+  border: 1px solid $border-color;
+
+  &:focus{
+    border: 2px solid $link-color;
+  }
+}
+
+.fa-magnifying-glass {
+  position: absolute;
+  right: 15px;
+  top: 7px;
+}
+
+.sitenav__list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.sitenav__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.sitenav__link {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 16px;
+  color: $link-color;
+  transition: $transition;
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+}
+
+.color-danger {
+  color: red;
+}
+
+.site-header__list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.site-header__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.site-header__icon {
+  font-size: 20px;
+  transition: $transition;
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+}
+
+.fa-comment-dots {
+  color: #20ca6a;
+}
+.fa-bell {
+  color: #f1c40f;
+}
+.fa-user-plus {
+  color: #9b58b6;
+}
+
+.site-header__img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.navigation__list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.navigation__item {
+  margin-right: 50px;
+  position: relative;
+  transition: $transition;
+
+  &:hover .navigation__line {
+    display: inline-block;
+    height: 2.5px;
+    width: 100%;
+    background-color: rgb(0, 145, 255);
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    border-radius: 25px;
+  }
+}
+
+.navigation__link {
+  text-decoration: none;
+  font-size: 16px;
+  color: $link-color;
+}
+
+.site-header__border {
+  border-top: 0.5px solid $border-color;
+  border-bottom: 0.5px solid $border-color;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}

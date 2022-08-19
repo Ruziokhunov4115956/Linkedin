@@ -1,0 +1,134 @@
+.backgraund {
+  margin-bottom: 35px;
+}
+.background__title {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-weight: lighter;
+}
+.backgraund__line {
+  width: 100%;
+  height: 0.5px;
+  background-color: $border-color;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+}
+.background__summary {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.background__summary-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.fa-clipboard {
+  font-size: 30px;
+}
+.background__heading {
+  margin-left: 20px;
+  font-weight: lighter;
+}
+.background__summary-text {
+  padding-left: 45px;
+}
+.background__experience {
+  padding-bottom: 25px;
+}
+.fa-briefcase {
+  font-size: 30px;
+}
+.background__experience-heading {
+  margin-left: 20px;
+  font-weight: lighter;
+}
+.background__experience-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.background__microsoft-box {
+  padding-left: 45px;
+  margin-bottom: 25px;
+}
+.microsoft-box__text {
+  opacity: $opacity-all;
+}
+.microsoft-box__heading {
+  font-weight: lighter;
+}
+
+.microsoft-box__link {
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+.background__microsoft-img {
+  width: 176px;
+  height: 40px;
+}
+
+.background__skills {
+  padding-bottom: 35px;
+}
+
+.background__skills-box {
+  display: flex;
+  align-items: center;
+  padding-left: 45px;
+  margin-bottom: 25px;
+}
+.skills-box__circle-span {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.skills-box__heading {
+  padding-left: 25px;
+}
+.bakground__circle-img-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bakground__circle-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.bakground__circle-line {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.background__interests {
+    padding-bottom: 35px;
+}
+.background__interests-box {
+    display: flex;
+    align-items: center;
+    padding-left: 45px;
+}
+.interests-box__link {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    background-color: $link-color;
+    margin-right: 15px;
+    border-radius: 5px;
+}

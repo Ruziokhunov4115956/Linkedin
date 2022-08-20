@@ -51,10 +51,17 @@
 }
 .recomendations-text {
   padding: 5px;
-  clip-path: polygon(0% 0%, 100% 0, 100% 76%, 16% 77%, 0 100%);
   background-color: $border-color;
-  height: 300px;
-  border-radius: 10px;
+  height: 200px;
+}
+
+.recomendations__border{
+  width: 0px;
+  height: 0px;
+  display: inline-block;
+  border-style: solid;
+  border-width: 60px 60px 0 0;
+  border-color: $border-color transparent transparent transparent;
 }
 
 .recomendations__item-box {

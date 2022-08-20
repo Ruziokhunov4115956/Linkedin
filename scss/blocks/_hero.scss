@@ -130,11 +130,19 @@
   border: 1px solid $color-blue;
   color: $color-blue;
   background-color: #fff;
+  text-align: center;
 
   &:hover {
     background-color: #13a3f064;
     cursor: pointer;
   }
+}
+
+.fa-angle-down{
+  position: relative;
+  bottom: 45px;
+  left: 45px;
+  color:$color-blue;
 }
 
 .btn-blue {
@@ -262,6 +270,8 @@
 
 .famous-slide__icon{
   cursor: pointer;
+  transform: translateY(-20px);
+  margin: 10px;
 }
 
 

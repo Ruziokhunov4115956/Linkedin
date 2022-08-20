@@ -742,11 +742,19 @@ img {
   border: 1px solid #13a3f0;
   color: #13a3f0;
   background-color: #fff;
+  text-align: center;
 }
 
 .bill-gates__btn:hover {
   background-color: #13a3f064;
   cursor: pointer;
+}
+
+.fa-angle-down {
+  position: relative;
+  bottom: 45px;
+  left: 45px;
+  color: #13a3f0;
 }
 
 .btn-blue {
@@ -923,6 +931,9 @@ img {
 
 .famous-slide__icon {
   cursor: pointer;
+  -webkit-transform: translateY(-20px);
+          transform: translateY(-20px);
+  margin: 10px;
 }
 
 .famous-slide__heading {
@@ -982,6 +993,26 @@ img {
 
 .background__experience {
   padding-bottom: 25px;
+  position: relative;
+}
+
+.experience-line {
+  position: absolute;
+}
+
+.experience__circle {
+  width: 10px;
+  height: 10px;
+  border: 2px solid #b2a4a440;
+  border-radius: 50%;
+}
+
+.experience__height {
+  width: 2px;
+  height: 100px;
+  background-color: #b2a4a440;
+  -webkit-transform: translateX(6px);
+          transform: translateX(6px);
 }
 
 .fa-briefcase {
@@ -1119,9 +1150,9 @@ img {
 
 .interests-box__link {
   text-decoration: none;
-  color: #fff;
+  color: #62645e;
   padding: 5px 10px;
-  background-color: #62645e;
+  background-color: #F1F1F1;
   margin-right: 15px;
   border-radius: 5px;
 }
@@ -1197,11 +1228,17 @@ img {
 
 .recomendations-text {
   padding: 5px;
-  -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 76%, 16% 77%, 0 100%);
-          clip-path: polygon(0% 0%, 100% 0, 100% 76%, 16% 77%, 0 100%);
   background-color: #b2a4a440;
-  height: 300px;
-  border-radius: 10px;
+  height: 200px;
+}
+
+.recomendations__border {
+  width: 0px;
+  height: 0px;
+  display: inline-block;
+  border-style: solid;
+  border-width: 60px 60px 0 0;
+  border-color: #b2a4a440 transparent transparent transparent;
 }
 
 .recomendations__item-box {

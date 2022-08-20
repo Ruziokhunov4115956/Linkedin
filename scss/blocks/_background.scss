@@ -35,7 +35,25 @@
 }
 .background__experience {
   padding-bottom: 25px;
+  position: relative;
 }
+
+.experience-line {
+  position: absolute;
+}
+.experience__circle {
+  width: 10px;
+  height: 10px;
+  border: 2px solid $border-color;
+  border-radius: 50%;
+}
+.experience__height {
+  width: 2px;
+  height: 100px;
+  background-color: $border-color;
+  transform: translateX(6px);
+}
+
 .fa-briefcase {
   font-size: 30px;
 }
@@ -126,9 +144,9 @@
 }
 .interests-box__link {
     text-decoration: none;
-    color: #fff;
+    color: $link-color;
     padding: 5px 10px;
-    background-color: $link-color;
+    background-color: #F1F1F1;
     margin-right: 15px;
     border-radius: 5px;
 }

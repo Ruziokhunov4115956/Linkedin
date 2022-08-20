@@ -1062,6 +1062,11 @@ img {
   height: 40px;
 }
 
+.experience__img {
+  width: 176px;
+  height: 60px;
+}
+
 .background__skills {
   padding-bottom: 35px;
 }
